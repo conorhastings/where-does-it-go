@@ -2,11 +2,13 @@ var React = require("react");
 
 var funnel = module.exports = React.createClass({
 	render: function(){
+		var self = this;
 		var data = [];
+		var colors = ["#CB5599" , "65A0D6", "#4F8D9D", "#E6615D", "#EA8D63", "#9ECD75"];
 		var options = {
 		    width: 350,           // In pixels; defaults to container's width (if non-zero)
 		    height: 400,          // In pixels; defaults to container's height (if non-zero)
-		    bottomWidth: 1/3,     // The percent of total width the bottom should be
+		    bottomWidth: 1/4,     // The percent of total width the bottom should be
 		    bottomPinch: 0,       // How many sections to pinch
 		    isCurved: false,      // Whether the funnel is curved
 		    curveHeight: 20,      // The curvature amount
@@ -22,11 +24,9 @@ var funnel = module.exports = React.createClass({
 		    }
 		}
 		if(this.props.salePrice){
-			for (var cost in this.props.breakdown) {
-			  if (this.props.breakdown.hasOwnProperty(cost)) {
-			   data.push([cost, this.props.salePrice * this.props.breakdown[cost]])
-			  }
-			}
+			this.props.breakdown.forEach(function(cost, index){
+				data.push([cost.displayName, cost.percentage * self.props.salePrice, colors[index]]);
+			});
 			var chart = new D3Funnel("#funnel");
 			chart.draw(data, options);
 		}

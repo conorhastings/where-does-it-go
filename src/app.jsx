@@ -12,12 +12,24 @@ var app = module.exports = React.createClass({
 
 	getDefaultProps: function() {
 		return {
-			breakdown: {
-				salary:.4,
-				rent:.2,
-				snacks:.2,
-				culturePrograms:.2
-			}
+			breakdown: [
+				{
+					percentage:.4, 
+					displayName:"Salary"
+				},
+				{
+					percentage:.2,
+					displayName:"Rent"
+				},
+				{
+					percentage:.2,
+					displayName: "Snacks"
+				},
+				{
+					percentage:.2,
+					displayName:"Culture Programs"
+				}
+			]
 		};	
 	},
 

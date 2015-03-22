@@ -19674,12 +19674,19 @@ var app = module.exports = React.createClass({
 
 	getDefaultProps: function getDefaultProps() {
 		return {
-			breakdown: {
-				salary: 0.4,
-				rent: 0.2,
-				snacks: 0.2,
-				culturePrograms: 0.2
-			}
+			breakdown: [{
+				percentage: 0.4,
+				displayName: "Salary"
+			}, {
+				percentage: 0.2,
+				displayName: "Rent"
+			}, {
+				percentage: 0.2,
+				displayName: "Snacks"
+			}, {
+				percentage: 0.2,
+				displayName: "Culture Programs"
+			}]
 		};
 	},
 
@@ -19737,11 +19744,13 @@ var funnel = module.exports = React.createClass({
 	displayName: "exports",
 
 	render: function render() {
+		var self = this;
 		var data = [];
+		var colors = ["#CB5599", "65A0D6", "#4F8D9D", "#E6615D", "#EA8D63", "#9ECD75"];
 		var options = {
 			width: 350, // In pixels; defaults to container's width (if non-zero)
 			height: 400, // In pixels; defaults to container's height (if non-zero)
-			bottomWidth: 1 / 3, // The percent of total width the bottom should be
+			bottomWidth: 1 / 4, // The percent of total width the bottom should be
 			bottomPinch: 0, // How many sections to pinch
 			isCurved: false, // Whether the funnel is curved
 			curveHeight: 20, // The curvature amount
@@ -19750,18 +19759,16 @@ var funnel = module.exports = React.createClass({
 			hoverEffects: false, // Whether the funnel has effects on hover
 			dynamicArea: false, // Whether the funnel should calculate the blocks by
 			// the count values rather than equal heights
-			animation: 500, // The load animation speed in milliseconds
+			animation: 100, // The load animation speed in milliseconds
 			label: {
 				fontSize: "14px", // Any valid font size
 				fill: "#fff" // Any valid hex color
 			}
 		};
 		if (this.props.salePrice) {
-			for (var cost in this.props.breakdown) {
-				if (this.props.breakdown.hasOwnProperty(cost)) {
-					data.push([cost, this.props.salePrice * this.props.breakdown[cost]]);
-				}
-			}
+			this.props.breakdown.forEach(function (cost, index) {
+				data.push([cost.displayName, cost.percentage * self.props.salePrice, colors[index]]);
+			});
 			var chart = new D3Funnel("#funnel");
 			chart.draw(data, options);
 		}
