@@ -44,14 +44,21 @@ var app = module.exports = React.createClass({
 	},
 
 	render: function() {
-		console.log(this.state)
-		var inputStyle = {width:"400px"};
-		var buttonStyle = {width:"400px"};	
+		var inputStyle = {width:"400px", height:"50px", border:"none", borderRadius:"3px", marginBottom:"10px", fontSize:"18px", padding:"10px", textAlign:"center"};
+		var buttonStyle = {width:"300px", height:"50px", border:"none", borderRadius:"3px", backgroundColor:"#93CD75", marginBottom:"10px"};	
+		var style = {textAlign:"center"};
 		return (
-			<div>
-				<Input ref={"price"} style={inputStyle} handleKeyPress={this.handleKeyPress} />
-				<Button style={buttonStyle} buttonText={"Click Me"} handleClick={this.handleClick} />
-				<Funnel breakdown={this.props.breakdown} salePrice = {this.state.salePrice} />
+			<div style={style}>
+				<h1>Where Does the Money Go?</h1>
+				<div>
+					<Input ref={"price"} style={inputStyle} handleKeyPress={this.handleKeyPress} placeholder={"Enter Sale Price"} />
+				</div>
+				<div>
+					<Button style={buttonStyle} buttonText={"Click Me"} handleClick={this.handleClick} />
+				</div>
+				<div>
+					<Funnel breakdown={this.props.breakdown} salePrice = {this.state.salePrice} />
+				</div>
 			</div>
 		)
 	}

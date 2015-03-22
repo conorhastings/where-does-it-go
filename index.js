@@ -19701,15 +19701,32 @@ var app = module.exports = React.createClass({
 	},
 
 	render: function render() {
-		console.log(this.state);
-		var inputStyle = { width: "400px" };
-		var buttonStyle = { width: "400px" };
+		var inputStyle = { width: "400px", height: "50px", border: "none", borderRadius: "3px", marginBottom: "10px", fontSize: "18px", padding: "10px", textAlign: "center" };
+		var buttonStyle = { width: "300px", height: "50px", border: "none", borderRadius: "3px", backgroundColor: "#93CD75", marginBottom: "10px" };
+		var style = { textAlign: "center" };
 		return React.createElement(
 			"div",
-			null,
-			React.createElement(Input, { ref: "price", style: inputStyle, handleKeyPress: this.handleKeyPress }),
-			React.createElement(Button, { style: buttonStyle, buttonText: "Click Me", handleClick: this.handleClick }),
-			React.createElement(Funnel, { breakdown: this.props.breakdown, salePrice: this.state.salePrice })
+			{ style: style },
+			React.createElement(
+				"h1",
+				null,
+				"Where Does the Money Go?"
+			),
+			React.createElement(
+				"div",
+				null,
+				React.createElement(Input, { ref: "price", style: inputStyle, handleKeyPress: this.handleKeyPress, placeholder: "Enter Sale Price" })
+			),
+			React.createElement(
+				"div",
+				null,
+				React.createElement(Button, { style: buttonStyle, buttonText: "Click Me", handleClick: this.handleClick })
+			),
+			React.createElement(
+				"div",
+				null,
+				React.createElement(Funnel, { breakdown: this.props.breakdown, salePrice: this.state.salePrice })
+			)
 		);
 	}
 });
@@ -19746,10 +19763,10 @@ var funnel = module.exports = React.createClass({
 	render: function render() {
 		var self = this;
 		var data = [];
-		var colors = ["#CB5599", "65A0D6", "#4F8D9D", "#E6615D", "#EA8D63", "#9ECD75"];
+		var colors = ["65A0D6", "#4F8D9D", "#E6615D", "#EA8D63", "#9ECD75"];
 		var options = {
-			width: 350, // In pixels; defaults to container's width (if non-zero)
-			height: 400, // In pixels; defaults to container's height (if non-zero)
+			width: 600, // In pixels; defaults to container's width (if non-zero)
+			height: 600, // In pixels; defaults to container's height (if non-zero)
 			bottomWidth: 1 / 4, // The percent of total width the bottom should be
 			bottomPinch: 0, // How many sections to pinch
 			isCurved: false, // Whether the funnel is curved
@@ -19759,9 +19776,9 @@ var funnel = module.exports = React.createClass({
 			hoverEffects: false, // Whether the funnel has effects on hover
 			dynamicArea: false, // Whether the funnel should calculate the blocks by
 			// the count values rather than equal heights
-			animation: 100, // The load animation speed in milliseconds
+			animation: 200, // The load animation speed in milliseconds
 			label: {
-				fontSize: "14px", // Any valid font size
+				fontSize: "16px", // Any valid font size
 				fill: "#fff" // Any valid hex color
 			}
 		};
@@ -19794,7 +19811,7 @@ var input = module.exports = React.createClass({
 	displayName: "exports",
 
 	render: function render() {
-		return React.createElement("input", { type: "text", style: this.props.style, onKeyDown: this.props.handleKeyPress });
+		return React.createElement("input", { type: "text", placeholder: this.props.placeholder, style: this.props.style, onKeyDown: this.props.handleKeyPress });
 	}
 });
 
