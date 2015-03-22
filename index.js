@@ -19720,7 +19720,7 @@ var app = module.exports = React.createClass({
 			React.createElement(
 				"div",
 				null,
-				React.createElement(Button, { style: buttonStyle, buttonText: "Click Me", handleClick: this.handleClick })
+				React.createElement(Button, { style: buttonStyle, buttonText: "Get Breakdown!", handleClick: this.handleClick })
 			),
 			React.createElement(
 				"div",

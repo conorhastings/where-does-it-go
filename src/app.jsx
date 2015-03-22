@@ -54,7 +54,7 @@ var app = module.exports = React.createClass({
 					<Input ref={"price"} style={inputStyle} handleKeyPress={this.handleKeyPress} placeholder={"Enter Sale Price"} />
 				</div>
 				<div>
-					<Button style={buttonStyle} buttonText={"Click Me"} handleClick={this.handleClick} />
+					<Button style={buttonStyle} buttonText={"Get Breakdown!"} handleClick={this.handleClick} />
 				</div>
 				<div>
 					<Funnel breakdown={this.props.breakdown} salePrice = {this.state.salePrice} />
