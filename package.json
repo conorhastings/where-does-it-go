@@ -1,0 +1,18 @@
+{
+  "name": "lean-march",
+  "version": "1.0.0",
+  "description": "Where does the money from an average deal go?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Conor Hastings",
+  "license": "MIT",
+  "dependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "d3": "^3.5.5",
+    "react": "^0.13.1",
+    "watchify": "^2.5.0"
+  }
+}
