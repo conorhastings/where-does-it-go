@@ -19691,7 +19691,8 @@ var app = module.exports = React.createClass({
 	},
 
 	handleClick: function handleClick() {
-		this.setState({ salePrice: parseInt(this.refs.price.getDOMNode().value) });
+		console.log(this.refs.price.getDOMNode().value.replace(/\W+/g, " "));
+		this.setState({ salePrice: parseInt(this.refs.price.getDOMNode().value.replace(/\W+/g, " ").split(" ").join("")) });
 	},
 
 	handleKeyPress: function handleKeyPress(e) {
@@ -19702,7 +19703,7 @@ var app = module.exports = React.createClass({
 
 	render: function render() {
 		var inputStyle = { width: "400px", height: "50px", border: "none", borderRadius: "3px", marginBottom: "10px", fontSize: "18px", padding: "10px", textAlign: "center" };
-		var buttonStyle = { width: "300px", height: "50px", border: "none", borderRadius: "3px", backgroundColor: "#93CD75", marginBottom: "10px" };
+		var buttonStyle = { width: "300px", height: "50px", border: "none", borderRadius: "3px", backgroundColor: "#93CD75", marginBottom: "10px", fontWeight: "700" };
 		var style = { textAlign: "center" };
 		return React.createElement(
 			"div",
