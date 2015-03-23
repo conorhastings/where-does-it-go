@@ -26,8 +26,12 @@ var app = module.exports = React.createClass({
 					displayName: "Snacks"
 				},
 				{
-					percentage:.2,
+					percentage:.1,
 					displayName:"Culture Programs"
+				},
+				{
+					percentage:.1,
+					displayName: "Candy"
 				}
 			]
 		};	
