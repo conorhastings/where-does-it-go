@@ -19724,11 +19724,6 @@ var app = module.exports = React.createClass({
 			"div",
 			{ style: style },
 			React.createElement(
-				"h1",
-				null,
-				"Where Does the Money Go?"
-			),
-			React.createElement(
 				"div",
 				null,
 				React.createElement(Input, { ref: "price", style: inputStyle, handleKeyPress: this.handleKeyPress, placeholder: "Enter Sale Price" })

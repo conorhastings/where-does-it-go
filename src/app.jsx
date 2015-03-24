@@ -40,8 +40,7 @@ var app = module.exports = React.createClass({
 				{
 					percentage:.026,
 					displayName:"Online Services"
-				},
-				{
+				}, {
 					percentage:.015,
 					displayName:"Office Supplies"
 				},
@@ -71,7 +70,6 @@ var app = module.exports = React.createClass({
 		var style = {textAlign:"center"};
 		return (
 			<div style={style}>
-				<h1>Where Does the Money Go?</h1>
 				<div>
 					<Input ref={"price"} style={inputStyle} handleKeyPress={this.handleKeyPress} placeholder={"Enter Sale Price"} />
 				</div>
