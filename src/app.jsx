@@ -14,24 +14,41 @@ var app = module.exports = React.createClass({
 		return {
 			breakdown: [
 				{
-					percentage:.4, 
-					displayName:"Salary"
+					percentage:.63,
+					displayName: "Salary"
 				},
 				{
-					percentage:.2,
+					percentage:.081,
+					displayName: "Other"
+				},
+				{
+					percentage:.06, 
+					displayName:"Advertising"
+				},
+				{
+					percentage:.06,
+					displayName:"Travel/Conferences"
+				},
+				{
+					percentage:.06,
+					displayName: "Insurance/Legal"
+				},
+				{
+					percentage:.053,
 					displayName:"Rent"
 				},
 				{
-					percentage:.2,
-					displayName: "Snacks"
+					percentage:.026,
+					displayName:"Online Services"
 				},
 				{
-					percentage:.1,
-					displayName:"Culture Programs"
+					percentage:.015,
+					displayName:"Office Supplies"
 				},
+
 				{
-					percentage:.1,
-					displayName: "Candy"
+					percentage: .013,
+					displayName: "Internet/Phone"
 				}
 			]
 		};	

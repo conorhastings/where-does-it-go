@@ -19675,20 +19675,32 @@ var app = module.exports = React.createClass({
 	getDefaultProps: function getDefaultProps() {
 		return {
 			breakdown: [{
-				percentage: 0.4,
+				percentage: 0.63,
 				displayName: "Salary"
 			}, {
-				percentage: 0.2,
+				percentage: 0.081,
+				displayName: "Other"
+			}, {
+				percentage: 0.06,
+				displayName: "Advertising"
+			}, {
+				percentage: 0.06,
+				displayName: "Travel/Conferences"
+			}, {
+				percentage: 0.06,
+				displayName: "Insurance/Legal"
+			}, {
+				percentage: 0.053,
 				displayName: "Rent"
 			}, {
-				percentage: 0.2,
-				displayName: "Snacks"
+				percentage: 0.026,
+				displayName: "Online Services"
 			}, {
-				percentage: 0.1,
-				displayName: "Culture Programs"
+				percentage: 0.015,
+				displayName: "Office Supplies"
 			}, {
-				percentage: 0.1,
-				displayName: "Candy"
+				percentage: 0.013,
+				displayName: "Internet/Phone"
 			}]
 		};
 	},
@@ -19767,7 +19779,7 @@ var funnel = module.exports = React.createClass({
 	render: function render() {
 		var self = this;
 		var data = [];
-		var colors = ["65A0D6", "#4F8D9D", "#E6615D", "#EA8D63", "#9ECD75"];
+		var colors = ["65A0D6", "#494949", "#4F8D9D", "#898B8F", "#E6615D", "#5E6063", "#EA8D63", "#CBD1D4", "#9ECD75"];
 		var options = {
 			width: 600, // In pixels; defaults to container's width (if non-zero)
 			height: 600, // In pixels; defaults to container's height (if non-zero)

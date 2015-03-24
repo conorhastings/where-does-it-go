@@ -4,7 +4,7 @@ var funnel = module.exports = React.createClass({
 	render: function(){
 		var self = this;
 		var data = [];
-		var colors = ["65A0D6", "#4F8D9D", "#E6615D", "#EA8D63", "#9ECD75"];
+		var colors = ["65A0D6", "#494949", "#4F8D9D", "#898B8F", "#E6615D", "#5E6063", "#EA8D63", "#CBD1D4", "#9ECD75"];
 		var options = {
 		    width: 600,           // In pixels; defaults to container's width (if non-zero)
 		    height: 600,          // In pixels; defaults to container's height (if non-zero)
