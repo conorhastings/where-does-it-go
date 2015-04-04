@@ -310,7 +310,8 @@
 				"fill": textFill,
 				"pointer-events": "none"
 			})
-			.style("font-size", this.label.fontSize);
+			.style("font-size", this.label.fontSize)
+			.style("font-weight", this.label.fontWeight)
 	};
 
 	/**

@@ -70,6 +70,7 @@ var app = module.exports = React.createClass({
 		var style = {textAlign:"center"};
 		return (
 			<div style={style}>
+				<h1>Enter Sale Price</h1>
 				<div>
 					<Input ref={"price"} style={inputStyle} handleKeyPress={this.handleKeyPress} placeholder={"Enter Sale Price"} />
 				</div>

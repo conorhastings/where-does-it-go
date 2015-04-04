@@ -4,7 +4,7 @@ var funnel = module.exports = React.createClass({
 	render: function(){
 		var self = this;
 		var data = [];
-		var colors = ["65A0D6", "#494949", "#4F8D9D", "#898B8F", "#E6615D", "#5E6063", "#EA8D63", "#CBD1D4", "#9ECD75"];
+		var colors = ["#65A0D6", "#494949", "#4F8D9D", "#898B8F", "#E6615D", "#5E6063", "#EA8D63", "#CBD1D4", "#9ECD75"];
 		var options = {
 		    width: 600,           // In pixels; defaults to container's width (if non-zero)
 		    height: 600,          // In pixels; defaults to container's height (if non-zero)
@@ -15,12 +15,13 @@ var funnel = module.exports = React.createClass({
 		    fillType: "solid",    // Either "solid" or "gradient"
 		    isInverted: false,    // Whether the funnel is inverted
 		    hoverEffects: false,  // Whether the funnel has effects on hover
-		    dynamicArea: false ,  // Whether the funnel should calculate the blocks by
+		    dynamicArea: true ,  // Whether the funnel should calculate the blocks by
 		                          // the count values rather than equal heights
 		    animation: 200,     // The load animation speed in milliseconds
 		    label: {
 		        fontSize: "16px", // Any valid font size
-		        fill: "#fff"      // Any valid hex color
+		        fill: "#fff",      // Any valid hex color
+		        fontWeight:700
 		    }
 		}
 		if(this.props.salePrice){

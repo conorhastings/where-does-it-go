@@ -823,7 +823,7 @@ var CSSPropertyOperations = {
 module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./CSSProperty":3,"./ExecutionEnvironment":20,"./camelizeStyleName":108,"./dangerousStyleValue":113,"./hyphenateStyleName":133,"./memoizeStringOnly":143,"./warning":154,"_process":161}],5:[function(require,module,exports){
+},{"./CSSProperty":3,"./ExecutionEnvironment":20,"./camelizeStyleName":108,"./dangerousStyleValue":113,"./hyphenateStyleName":133,"./memoizeStringOnly":143,"./warning":154,"_process":162}],5:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -923,7 +923,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./PooledClass":27,"./invariant":135,"_process":161}],6:[function(require,module,exports){
+},{"./Object.assign":26,"./PooledClass":27,"./invariant":135,"_process":162}],6:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1468,7 +1468,7 @@ var DOMChildrenOperations = {
 module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
-},{"./Danger":11,"./ReactMultiChildUpdateTypes":72,"./invariant":135,"./setTextContent":149,"_process":161}],9:[function(require,module,exports){
+},{"./Danger":11,"./ReactMultiChildUpdateTypes":72,"./invariant":135,"./setTextContent":149,"_process":162}],9:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1767,7 +1767,7 @@ var DOMProperty = {
 module.exports = DOMProperty;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],10:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],10:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -1959,7 +1959,7 @@ var DOMPropertyOperations = {
 module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":9,"./quoteAttributeValueForBrowser":147,"./warning":154,"_process":161}],11:[function(require,module,exports){
+},{"./DOMProperty":9,"./quoteAttributeValueForBrowser":147,"./warning":154,"_process":162}],11:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2146,7 +2146,7 @@ var Danger = {
 module.exports = Danger;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":20,"./createNodesFromMarkup":112,"./emptyFunction":114,"./getMarkupWrap":127,"./invariant":135,"_process":161}],12:[function(require,module,exports){
+},{"./ExecutionEnvironment":20,"./createNodesFromMarkup":112,"./emptyFunction":114,"./getMarkupWrap":127,"./invariant":135,"_process":162}],12:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2487,7 +2487,7 @@ var EventListener = {
 module.exports = EventListener;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":114,"_process":161}],16:[function(require,module,exports){
+},{"./emptyFunction":114,"_process":162}],16:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2765,7 +2765,7 @@ var EventPluginHub = {
 module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":17,"./EventPluginUtils":18,"./accumulateInto":105,"./forEachAccumulated":120,"./invariant":135,"_process":161}],17:[function(require,module,exports){
+},{"./EventPluginRegistry":17,"./EventPluginUtils":18,"./accumulateInto":105,"./forEachAccumulated":120,"./invariant":135,"_process":162}],17:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3045,7 +3045,7 @@ var EventPluginRegistry = {
 module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],18:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],18:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3266,7 +3266,7 @@ var EventPluginUtils = {
 module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
-},{"./EventConstants":14,"./invariant":135,"_process":161}],19:[function(require,module,exports){
+},{"./EventConstants":14,"./invariant":135,"_process":162}],19:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -3408,7 +3408,7 @@ var EventPropagators = {
 module.exports = EventPropagators;
 
 }).call(this,require('_process'))
-},{"./EventConstants":14,"./EventPluginHub":16,"./accumulateInto":105,"./forEachAccumulated":120,"_process":161}],20:[function(require,module,exports){
+},{"./EventConstants":14,"./EventPluginHub":16,"./accumulateInto":105,"./forEachAccumulated":120,"_process":162}],20:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -3904,7 +3904,7 @@ var LinkedValueUtils = {
 module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
-},{"./ReactPropTypes":78,"./invariant":135,"_process":161}],24:[function(require,module,exports){
+},{"./ReactPropTypes":78,"./invariant":135,"_process":162}],24:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -3961,7 +3961,7 @@ var LocalEventTrapMixin = {
 module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserEventEmitter":30,"./accumulateInto":105,"./forEachAccumulated":120,"./invariant":135,"_process":161}],25:[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":30,"./accumulateInto":105,"./forEachAccumulated":120,"./invariant":135,"_process":162}],25:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -4184,7 +4184,7 @@ var PooledClass = {
 module.exports = PooledClass;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],28:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],28:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -4336,7 +4336,7 @@ React.version = '0.13.1';
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./EventPluginUtils":18,"./ExecutionEnvironment":20,"./Object.assign":26,"./ReactChildren":32,"./ReactClass":33,"./ReactComponent":34,"./ReactContext":38,"./ReactCurrentOwner":39,"./ReactDOM":40,"./ReactDOMTextComponent":51,"./ReactDefaultInjection":54,"./ReactElement":57,"./ReactElementValidator":58,"./ReactInstanceHandles":66,"./ReactMount":70,"./ReactPerf":75,"./ReactPropTypes":78,"./ReactReconciler":81,"./ReactServerRendering":84,"./findDOMNode":117,"./onlyChild":144,"_process":161}],29:[function(require,module,exports){
+},{"./EventPluginUtils":18,"./ExecutionEnvironment":20,"./Object.assign":26,"./ReactChildren":32,"./ReactClass":33,"./ReactComponent":34,"./ReactContext":38,"./ReactCurrentOwner":39,"./ReactDOM":40,"./ReactDOMTextComponent":51,"./ReactDefaultInjection":54,"./ReactElement":57,"./ReactElementValidator":58,"./ReactInstanceHandles":66,"./ReactMount":70,"./ReactPerf":75,"./ReactPropTypes":78,"./ReactReconciler":81,"./ReactServerRendering":84,"./findDOMNode":117,"./onlyChild":144,"_process":162}],29:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -5000,7 +5000,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 }).call(this,require('_process'))
-},{"./PooledClass":27,"./ReactFragment":63,"./traverseAllChildren":153,"./warning":154,"_process":161}],33:[function(require,module,exports){
+},{"./PooledClass":27,"./ReactFragment":63,"./traverseAllChildren":153,"./warning":154,"_process":162}],33:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -5946,7 +5946,7 @@ var ReactClass = {
 module.exports = ReactClass;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./ReactComponent":34,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactErrorUtils":60,"./ReactInstanceMap":67,"./ReactLifeCycle":68,"./ReactPropTypeLocationNames":76,"./ReactPropTypeLocations":77,"./ReactUpdateQueue":86,"./invariant":135,"./keyMirror":140,"./keyOf":141,"./warning":154,"_process":161}],34:[function(require,module,exports){
+},{"./Object.assign":26,"./ReactComponent":34,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactErrorUtils":60,"./ReactInstanceMap":67,"./ReactLifeCycle":68,"./ReactPropTypeLocationNames":76,"./ReactPropTypeLocations":77,"./ReactUpdateQueue":86,"./invariant":135,"./keyMirror":140,"./keyOf":141,"./warning":154,"_process":162}],34:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -6082,7 +6082,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactComponent;
 
 }).call(this,require('_process'))
-},{"./ReactUpdateQueue":86,"./invariant":135,"./warning":154,"_process":161}],35:[function(require,module,exports){
+},{"./ReactUpdateQueue":86,"./invariant":135,"./warning":154,"_process":162}],35:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -6190,7 +6190,7 @@ var ReactComponentEnvironment = {
 module.exports = ReactComponentEnvironment;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],37:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],37:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7080,7 +7080,7 @@ var ReactCompositeComponent = {
 module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./ReactComponentEnvironment":36,"./ReactContext":38,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactElementValidator":58,"./ReactInstanceMap":67,"./ReactLifeCycle":68,"./ReactNativeComponent":73,"./ReactPerf":75,"./ReactPropTypeLocationNames":76,"./ReactPropTypeLocations":77,"./ReactReconciler":81,"./ReactUpdates":87,"./emptyObject":115,"./invariant":135,"./shouldUpdateReactComponent":151,"./warning":154,"_process":161}],38:[function(require,module,exports){
+},{"./Object.assign":26,"./ReactComponentEnvironment":36,"./ReactContext":38,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactElementValidator":58,"./ReactInstanceMap":67,"./ReactLifeCycle":68,"./ReactNativeComponent":73,"./ReactPerf":75,"./ReactPropTypeLocationNames":76,"./ReactPropTypeLocations":77,"./ReactReconciler":81,"./ReactUpdates":87,"./emptyObject":115,"./invariant":135,"./shouldUpdateReactComponent":151,"./warning":154,"_process":162}],38:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -7158,7 +7158,7 @@ var ReactContext = {
 module.exports = ReactContext;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./emptyObject":115,"./warning":154,"_process":161}],39:[function(require,module,exports){
+},{"./Object.assign":26,"./emptyObject":115,"./warning":154,"_process":162}],39:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -7370,7 +7370,7 @@ var ReactDOM = mapObject({
 module.exports = ReactDOM;
 
 }).call(this,require('_process'))
-},{"./ReactElement":57,"./ReactElementValidator":58,"./mapObject":142,"_process":161}],41:[function(require,module,exports){
+},{"./ReactElement":57,"./ReactElementValidator":58,"./mapObject":142,"_process":162}],41:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -7940,7 +7940,7 @@ ReactDOMComponent.injection = {
 module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":4,"./DOMProperty":9,"./DOMPropertyOperations":10,"./Object.assign":26,"./ReactBrowserEventEmitter":30,"./ReactComponentBrowserEnvironment":35,"./ReactMount":70,"./ReactMultiChild":71,"./ReactPerf":75,"./escapeTextContentForBrowser":116,"./invariant":135,"./isEventSupported":136,"./keyOf":141,"./warning":154,"_process":161}],43:[function(require,module,exports){
+},{"./CSSPropertyOperations":4,"./DOMProperty":9,"./DOMPropertyOperations":10,"./Object.assign":26,"./ReactBrowserEventEmitter":30,"./ReactComponentBrowserEnvironment":35,"./ReactMount":70,"./ReactMultiChild":71,"./ReactPerf":75,"./escapeTextContentForBrowser":116,"./invariant":135,"./isEventSupported":136,"./keyOf":141,"./warning":154,"_process":162}],43:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8157,7 +8157,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":4,"./DOMChildrenOperations":8,"./DOMPropertyOperations":10,"./ReactMount":70,"./ReactPerf":75,"./invariant":135,"./setInnerHTML":148,"_process":161}],45:[function(require,module,exports){
+},{"./CSSPropertyOperations":4,"./DOMChildrenOperations":8,"./DOMPropertyOperations":10,"./ReactMount":70,"./ReactPerf":75,"./invariant":135,"./setInnerHTML":148,"_process":162}],45:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8425,7 +8425,7 @@ var ReactDOMInput = ReactClass.createClass({
 module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":1,"./DOMPropertyOperations":10,"./LinkedValueUtils":23,"./Object.assign":26,"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactElement":57,"./ReactMount":70,"./ReactUpdates":87,"./invariant":135,"_process":161}],48:[function(require,module,exports){
+},{"./AutoFocusMixin":1,"./DOMPropertyOperations":10,"./LinkedValueUtils":23,"./Object.assign":26,"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactElement":57,"./ReactMount":70,"./ReactUpdates":87,"./invariant":135,"_process":162}],48:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8477,7 +8477,7 @@ var ReactDOMOption = ReactClass.createClass({
 module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactElement":57,"./warning":154,"_process":161}],49:[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactElement":57,"./warning":154,"_process":162}],49:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9125,7 +9125,7 @@ var ReactDOMTextarea = ReactClass.createClass({
 module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":1,"./DOMPropertyOperations":10,"./LinkedValueUtils":23,"./Object.assign":26,"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactElement":57,"./ReactUpdates":87,"./invariant":135,"./warning":154,"_process":161}],53:[function(require,module,exports){
+},{"./AutoFocusMixin":1,"./DOMPropertyOperations":10,"./LinkedValueUtils":23,"./Object.assign":26,"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactElement":57,"./ReactUpdates":87,"./invariant":135,"./warning":154,"_process":162}],53:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9357,7 +9357,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":2,"./ChangeEventPlugin":6,"./ClientReactRootIndex":7,"./DefaultEventPluginOrder":12,"./EnterLeaveEventPlugin":13,"./ExecutionEnvironment":20,"./HTMLDOMPropertyConfig":22,"./MobileSafariClickEventPlugin":25,"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactComponentBrowserEnvironment":35,"./ReactDOMButton":41,"./ReactDOMComponent":42,"./ReactDOMForm":43,"./ReactDOMIDOperations":44,"./ReactDOMIframe":45,"./ReactDOMImg":46,"./ReactDOMInput":47,"./ReactDOMOption":48,"./ReactDOMSelect":49,"./ReactDOMTextComponent":51,"./ReactDOMTextarea":52,"./ReactDefaultBatchingStrategy":53,"./ReactDefaultPerf":55,"./ReactElement":57,"./ReactEventListener":62,"./ReactInjection":64,"./ReactInstanceHandles":66,"./ReactMount":70,"./ReactReconcileTransaction":80,"./SVGDOMPropertyConfig":88,"./SelectEventPlugin":89,"./ServerReactRootIndex":90,"./SimpleEventPlugin":91,"./createFullPageComponent":111,"_process":161}],55:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":2,"./ChangeEventPlugin":6,"./ClientReactRootIndex":7,"./DefaultEventPluginOrder":12,"./EnterLeaveEventPlugin":13,"./ExecutionEnvironment":20,"./HTMLDOMPropertyConfig":22,"./MobileSafariClickEventPlugin":25,"./ReactBrowserComponentMixin":29,"./ReactClass":33,"./ReactComponentBrowserEnvironment":35,"./ReactDOMButton":41,"./ReactDOMComponent":42,"./ReactDOMForm":43,"./ReactDOMIDOperations":44,"./ReactDOMIframe":45,"./ReactDOMImg":46,"./ReactDOMInput":47,"./ReactDOMOption":48,"./ReactDOMSelect":49,"./ReactDOMTextComponent":51,"./ReactDOMTextarea":52,"./ReactDefaultBatchingStrategy":53,"./ReactDefaultPerf":55,"./ReactElement":57,"./ReactEventListener":62,"./ReactInjection":64,"./ReactInstanceHandles":66,"./ReactMount":70,"./ReactReconcileTransaction":80,"./SVGDOMPropertyConfig":88,"./SelectEventPlugin":89,"./ServerReactRootIndex":90,"./SimpleEventPlugin":91,"./createFullPageComponent":111,"_process":162}],55:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -10137,7 +10137,7 @@ ReactElement.isValidElement = function(object) {
 module.exports = ReactElement;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./ReactContext":38,"./ReactCurrentOwner":39,"./warning":154,"_process":161}],58:[function(require,module,exports){
+},{"./Object.assign":26,"./ReactContext":38,"./ReactCurrentOwner":39,"./warning":154,"_process":162}],58:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10602,7 +10602,7 @@ var ReactElementValidator = {
 module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactFragment":63,"./ReactNativeComponent":73,"./ReactPropTypeLocationNames":76,"./ReactPropTypeLocations":77,"./getIteratorFn":126,"./invariant":135,"./warning":154,"_process":161}],59:[function(require,module,exports){
+},{"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactFragment":63,"./ReactNativeComponent":73,"./ReactPropTypeLocationNames":76,"./ReactPropTypeLocations":77,"./getIteratorFn":126,"./invariant":135,"./warning":154,"_process":162}],59:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -10697,7 +10697,7 @@ var ReactEmptyComponent = {
 module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":57,"./ReactInstanceMap":67,"./invariant":135,"_process":161}],60:[function(require,module,exports){
+},{"./ReactElement":57,"./ReactInstanceMap":67,"./invariant":135,"_process":162}],60:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11147,7 +11147,7 @@ var ReactFragment = {
 module.exports = ReactFragment;
 
 }).call(this,require('_process'))
-},{"./ReactElement":57,"./warning":154,"_process":161}],64:[function(require,module,exports){
+},{"./ReactElement":57,"./warning":154,"_process":162}],64:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11660,7 +11660,7 @@ var ReactInstanceHandles = {
 module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
-},{"./ReactRootIndex":83,"./invariant":135,"_process":161}],67:[function(require,module,exports){
+},{"./ReactRootIndex":83,"./invariant":135,"_process":162}],67:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -12685,7 +12685,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 module.exports = ReactMount;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":9,"./ReactBrowserEventEmitter":30,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactElementValidator":58,"./ReactEmptyComponent":59,"./ReactInstanceHandles":66,"./ReactInstanceMap":67,"./ReactMarkupChecksum":69,"./ReactPerf":75,"./ReactReconciler":81,"./ReactUpdateQueue":86,"./ReactUpdates":87,"./containsNode":109,"./emptyObject":115,"./getReactRootElementInContainer":129,"./instantiateReactComponent":134,"./invariant":135,"./setInnerHTML":148,"./shouldUpdateReactComponent":151,"./warning":154,"_process":161}],71:[function(require,module,exports){
+},{"./DOMProperty":9,"./ReactBrowserEventEmitter":30,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactElementValidator":58,"./ReactEmptyComponent":59,"./ReactInstanceHandles":66,"./ReactInstanceMap":67,"./ReactMarkupChecksum":69,"./ReactPerf":75,"./ReactReconciler":81,"./ReactUpdateQueue":86,"./ReactUpdates":87,"./containsNode":109,"./emptyObject":115,"./getReactRootElementInContainer":129,"./instantiateReactComponent":134,"./invariant":135,"./setInnerHTML":148,"./shouldUpdateReactComponent":151,"./warning":154,"_process":162}],71:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13255,7 +13255,7 @@ var ReactNativeComponent = {
 module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./invariant":135,"_process":161}],74:[function(require,module,exports){
+},{"./Object.assign":26,"./invariant":135,"_process":162}],74:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13367,7 +13367,7 @@ var ReactOwner = {
 module.exports = ReactOwner;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],75:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],75:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13471,7 +13471,7 @@ function _noMeasure(objName, fnName, func) {
 module.exports = ReactPerf;
 
 }).call(this,require('_process'))
-},{"_process":161}],76:[function(require,module,exports){
+},{"_process":162}],76:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13499,7 +13499,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
-},{"_process":161}],77:[function(require,module,exports){
+},{"_process":162}],77:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14228,7 +14228,7 @@ var ReactReconciler = {
 module.exports = ReactReconciler;
 
 }).call(this,require('_process'))
-},{"./ReactElementValidator":58,"./ReactRef":82,"_process":161}],82:[function(require,module,exports){
+},{"./ReactElementValidator":58,"./ReactRef":82,"_process":162}],82:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14412,7 +14412,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./ReactElement":57,"./ReactInstanceHandles":66,"./ReactMarkupChecksum":69,"./ReactServerRenderingTransaction":85,"./emptyObject":115,"./instantiateReactComponent":134,"./invariant":135,"_process":161}],85:[function(require,module,exports){
+},{"./ReactElement":57,"./ReactInstanceHandles":66,"./ReactMarkupChecksum":69,"./ReactServerRenderingTransaction":85,"./emptyObject":115,"./instantiateReactComponent":134,"./invariant":135,"_process":162}],85:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -14824,7 +14824,7 @@ var ReactUpdateQueue = {
 module.exports = ReactUpdateQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactInstanceMap":67,"./ReactLifeCycle":68,"./ReactUpdates":87,"./invariant":135,"./warning":154,"_process":161}],87:[function(require,module,exports){
+},{"./Object.assign":26,"./ReactCurrentOwner":39,"./ReactElement":57,"./ReactInstanceMap":67,"./ReactLifeCycle":68,"./ReactUpdates":87,"./invariant":135,"./warning":154,"_process":162}],87:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15106,7 +15106,7 @@ var ReactUpdates = {
 module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
-},{"./CallbackQueue":5,"./Object.assign":26,"./PooledClass":27,"./ReactCurrentOwner":39,"./ReactPerf":75,"./ReactReconciler":81,"./Transaction":103,"./invariant":135,"./warning":154,"_process":161}],88:[function(require,module,exports){
+},{"./CallbackQueue":5,"./Object.assign":26,"./PooledClass":27,"./ReactCurrentOwner":39,"./ReactPerf":75,"./ReactReconciler":81,"./Transaction":103,"./invariant":135,"./warning":154,"_process":162}],88:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15852,7 +15852,7 @@ var SimpleEventPlugin = {
 module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
-},{"./EventConstants":14,"./EventPluginUtils":18,"./EventPropagators":19,"./SyntheticClipboardEvent":92,"./SyntheticDragEvent":94,"./SyntheticEvent":95,"./SyntheticFocusEvent":96,"./SyntheticKeyboardEvent":98,"./SyntheticMouseEvent":99,"./SyntheticTouchEvent":100,"./SyntheticUIEvent":101,"./SyntheticWheelEvent":102,"./getEventCharCode":122,"./invariant":135,"./keyOf":141,"./warning":154,"_process":161}],92:[function(require,module,exports){
+},{"./EventConstants":14,"./EventPluginUtils":18,"./EventPropagators":19,"./SyntheticClipboardEvent":92,"./SyntheticDragEvent":94,"./SyntheticEvent":95,"./SyntheticFocusEvent":96,"./SyntheticKeyboardEvent":98,"./SyntheticMouseEvent":99,"./SyntheticTouchEvent":100,"./SyntheticUIEvent":101,"./SyntheticWheelEvent":102,"./getEventCharCode":122,"./invariant":135,"./keyOf":141,"./warning":154,"_process":162}],92:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16812,7 +16812,7 @@ var Transaction = {
 module.exports = Transaction;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],104:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],104:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16907,7 +16907,7 @@ function accumulateInto(current, next) {
 module.exports = accumulateInto;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],106:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],106:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17207,7 +17207,7 @@ function createFullPageComponent(tag) {
 module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
-},{"./ReactClass":33,"./ReactElement":57,"./invariant":135,"_process":161}],112:[function(require,module,exports){
+},{"./ReactClass":33,"./ReactElement":57,"./invariant":135,"_process":162}],112:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17297,7 +17297,7 @@ function createNodesFromMarkup(markup, handleScript) {
 module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":20,"./createArrayFromMixed":110,"./getMarkupWrap":127,"./invariant":135,"_process":161}],113:[function(require,module,exports){
+},{"./ExecutionEnvironment":20,"./createArrayFromMixed":110,"./getMarkupWrap":127,"./invariant":135,"_process":162}],113:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17413,7 +17413,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = emptyObject;
 
 }).call(this,require('_process'))
-},{"_process":161}],116:[function(require,module,exports){
+},{"_process":162}],116:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17526,7 +17526,7 @@ function findDOMNode(componentOrElement) {
 module.exports = findDOMNode;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":39,"./ReactInstanceMap":67,"./ReactMount":70,"./invariant":135,"./isNode":137,"./warning":154,"_process":161}],118:[function(require,module,exports){
+},{"./ReactCurrentOwner":39,"./ReactInstanceMap":67,"./ReactMount":70,"./invariant":135,"./isNode":137,"./warning":154,"_process":162}],118:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -17584,7 +17584,7 @@ function flattenChildren(children) {
 module.exports = flattenChildren;
 
 }).call(this,require('_process'))
-},{"./traverseAllChildren":153,"./warning":154,"_process":161}],119:[function(require,module,exports){
+},{"./traverseAllChildren":153,"./warning":154,"_process":162}],119:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -18069,7 +18069,7 @@ function getMarkupWrap(nodeName) {
 module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":20,"./invariant":135,"_process":161}],128:[function(require,module,exports){
+},{"./ExecutionEnvironment":20,"./invariant":135,"_process":162}],128:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18467,7 +18467,7 @@ function instantiateReactComponent(node, parentCompositeType) {
 module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":26,"./ReactCompositeComponent":37,"./ReactEmptyComponent":59,"./ReactNativeComponent":73,"./invariant":135,"./warning":154,"_process":161}],135:[function(require,module,exports){
+},{"./Object.assign":26,"./ReactCompositeComponent":37,"./ReactEmptyComponent":59,"./ReactNativeComponent":73,"./invariant":135,"./warning":154,"_process":162}],135:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -18524,7 +18524,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":161}],136:[function(require,module,exports){
+},{"_process":162}],136:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18739,7 +18739,7 @@ var keyMirror = function(obj) {
 module.exports = keyMirror;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],141:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],141:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18901,7 +18901,7 @@ function onlyChild(children) {
 module.exports = onlyChild;
 
 }).call(this,require('_process'))
-},{"./ReactElement":57,"./invariant":135,"_process":161}],145:[function(require,module,exports){
+},{"./ReactElement":57,"./invariant":135,"_process":162}],145:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19264,7 +19264,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 module.exports = shouldUpdateReactComponent;
 
 }).call(this,require('_process'))
-},{"./warning":154,"_process":161}],152:[function(require,module,exports){
+},{"./warning":154,"_process":162}],152:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -19336,7 +19336,7 @@ function toArray(obj) {
 module.exports = toArray;
 
 }).call(this,require('_process'))
-},{"./invariant":135,"_process":161}],153:[function(require,module,exports){
+},{"./invariant":135,"_process":162}],153:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19589,7 +19589,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
-},{"./ReactElement":57,"./ReactFragment":63,"./ReactInstanceHandles":66,"./getIteratorFn":126,"./invariant":135,"./warning":154,"_process":161}],154:[function(require,module,exports){
+},{"./ReactElement":57,"./ReactFragment":63,"./ReactInstanceHandles":66,"./getIteratorFn":126,"./invariant":135,"./warning":154,"_process":162}],154:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -19652,7 +19652,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":114,"_process":161}],155:[function(require,module,exports){
+},{"./emptyFunction":114,"_process":162}],155:[function(require,module,exports){
 module.exports = require('./lib/React');
 
 },{"./lib/React":28}],156:[function(require,module,exports){
@@ -19724,6 +19724,11 @@ var app = module.exports = React.createClass({
 			"div",
 			{ style: style },
 			React.createElement(
+				"h1",
+				null,
+				"Enter Sale Price"
+			),
+			React.createElement(
 				"div",
 				null,
 				React.createElement(Input, { ref: "price", style: inputStyle, handleKeyPress: this.handleKeyPress, placeholder: "Enter Sale Price" })
@@ -19742,7 +19747,7 @@ var app = module.exports = React.createClass({
 	}
 });
 
-},{"./button.jsx":157,"./funnel.jsx":158,"./input.jsx":160,"react":155}],157:[function(require,module,exports){
+},{"./button.jsx":157,"./funnel.jsx":159,"./input.jsx":161,"react":155}],157:[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -19766,6 +19771,614 @@ var input = module.exports = React.createClass({
 },{"react":155}],158:[function(require,module,exports){
 "use strict";
 
+(function (global) {
+
+	/* global d3 */
+	/* jshint bitwise: false */
+	"use strict";
+
+	/**
+  * D3Funnel
+  *
+  * An object representing a D3-driven funnel chart.
+  *
+  * @param {string} selector A selector for element to contain the funnel.
+  */
+	var D3Funnel = function D3Funnel(selector) {
+		this.selector = selector;
+
+		// Default configuration values
+		this.defaults = {
+			width: 350,
+			height: 400,
+			bottomWidth: 1 / 3,
+			bottomPinch: 0,
+			isCurved: false,
+			curveHeight: 20,
+			fillType: "solid",
+			isInverted: false,
+			hoverEffects: false,
+			dynamicArea: false,
+			animation: false,
+			label: {
+				fontSize: "14px",
+				fill: "#fff"
+			}
+		};
+	};
+
+	/**
+  * Check if the supplied value is an array.
+  *
+  * @param {mixed} value
+  *
+  * @return {bool}
+  */
+	D3Funnel.prototype.__isArray = function (value) {
+		return Object.prototype.toString.call(value) === "[object Array]";
+	};
+
+	/**
+  * Extends an object with the members of another.
+  *
+  * @param {Object} a The object to be extended.
+  * @param {Object} b The object to clone from.
+  *
+  * @return {Object}
+  */
+	D3Funnel.prototype.__extend = function (a, b) {
+		var prop;
+		for (prop in b) {
+			if (b.hasOwnProperty(prop)) {
+				a[prop] = b[prop];
+			}
+		}
+		return a;
+	};
+
+	/**
+  * Draw onto the container with the data and configuration specified. This
+  * will clear any previous SVG element in the container and draw a new
+  * funnel chart on top of it.
+  *
+  * @param {array}  data    A list of rows containing a category, a count,
+  *                         and optionally a color (in hex).
+  * @param {Object} options An optional configuration object for chart
+  *                         options.
+  *
+  * @param {int}    options.width        Initial width. Specified in pixels.
+  * @param {int}    options.height       Chart height. Specified in pixels.
+  * @param {int}    options.bottomWidth  Specifies the width percent the
+  *                                      bottom should be in relation to the
+  *                                      chart's overall width.
+  * @param {int}    options.bottomPinch  How many sections (from the bottom)
+  *                                      should be "pinched" to have fixed
+  *                                      width defined by options.bottomWidth.
+  * @param {bool}   options.isCurved     Whether or not the funnel is curved.
+  * @param {int}    options.curveHeight  The height of the curves. Only
+  *                                      functional if isCurve is set.
+  * @param {string} options.fillType     The section background type. Either
+  *                                      "solid" or "gradient".
+  * @param {bool}   options.isInverted   Whether or not the funnel should be
+  *                                      inverted to a pyramid.
+  * @param {bool}   options.hoverEffects Whether or not the funnel hover
+  *                                      effects should be shown.
+  * @param {bool}   options.dynamicArea  Whether or not the area should be
+  *                                      dynamically calculated based on
+  *                                      data counts.
+  * @param {int}    options.animation    The load animation speed. If empty,
+  *                                      there will be no load animation.
+  * @param {Object} options.label
+  * @param {Object} options.label.fontSize
+  */
+	D3Funnel.prototype.draw = function (data, options) {
+		// Initialize chart options
+		this.__initialize(data, options);
+
+		// Remove any previous drawings
+		d3.select(this.selector).selectAll("svg").remove();
+
+		// Add the SVG and group element
+		this.svg = d3.select(this.selector).append("svg").attr("width", this.width).attr("height", this.height).append("g");
+
+		this.sectionPaths = this.__makePaths();
+
+		// Define color gradients
+		if (this.fillType === "gradient") {
+			this.__defineColorGradients(this.svg);
+		}
+
+		// Add top oval if curved
+		if (this.isCurved) {
+			this.__drawTopOval(this.svg, this.sectionPaths);
+		}
+
+		// Add each block section
+		this.__drawSection(0);
+	};
+
+	/**
+  * Draw the next section in the iteration.
+  *
+  * @param {int} index
+  */
+	D3Funnel.prototype.__drawSection = function (index) {
+		if (index === this.data.length) {
+			return;
+		}
+
+		// Create a group just for this block
+		var group = this.svg.append("g");
+
+		// Fetch path element
+		var path = this.__getSectionPath(group, index);
+		path.data(this.__getSectionData(index));
+
+		// Add animation components
+		if (this.animation !== false) {
+			var self = this;
+			path.transition().duration(this.animation).ease("linear").attr("fill", this.__getColor(index)).attr("d", this.__getPathDefinition(index)).each("end", function () {
+				self.__drawSection(index + 1);
+			});
+		} else {
+			path.attr("fill", this.__getColor(index)).attr("d", this.__getPathDefinition(index));
+			this.__drawSection(index + 1);
+		}
+
+		// Add the hover events
+		if (this.hoverEffects) {
+			path.on("mouseover", this.__onMouseOver).on("mouseout", this.__onMouseOut);
+		}
+
+		this.__addSectionLabel(group, index);
+	};
+
+	/**
+  * Return the color for the given index.
+  *
+  * @param {int} index
+  */
+	D3Funnel.prototype.__getColor = function (index) {
+		if (this.fillType === "solid") {
+			return this.data[index][2];
+		} else {
+			return "url(#gradient-" + index + ")";
+		}
+	};
+
+	/**
+  * @param {Object} group
+  * @param {int}    index
+  *
+  * @return {Object}
+  */
+	D3Funnel.prototype.__getSectionPath = function (group, index) {
+		var path = group.append("path");
+
+		if (this.animation !== false) {
+			this.__addBeforeTransition(path, index);
+		}
+
+		return path;
+	};
+
+	/**
+  * Set the attributes of a path element before its animation.
+  *
+  * @param {Object} path
+  * @param {int}    index
+  */
+	D3Funnel.prototype.__addBeforeTransition = function (path, index) {
+		var paths = this.sectionPaths[index];
+
+		var beforePath = "";
+		var beforeFill = "";
+
+		// Construct the top of the trapezoid and leave the other elements
+		// hovering around to expand downward on animation
+		if (!this.isCurved) {
+			beforePath = "M" + paths[0][0] + "," + paths[0][1] + " L" + paths[1][0] + "," + paths[1][1] + " L" + paths[1][0] + "," + paths[1][1] + " L" + paths[0][0] + "," + paths[0][1];
+		} else {
+			beforePath = "M" + paths[0][0] + "," + paths[0][1] + " Q" + paths[1][0] + "," + paths[1][1] + " " + paths[2][0] + "," + paths[2][1] + " L" + paths[2][0] + "," + paths[2][1] + " M" + paths[2][0] + "," + paths[2][1] + " Q" + paths[1][0] + "," + paths[1][1] + " " + paths[0][0] + "," + paths[0][1];
+		}
+
+		// Use previous fill color, if available
+		if (this.fillType === "solid") {
+			beforeFill = index > 0 ? this.__getColor(index - 1) : this.__getColor(index);
+			// Use current background if gradient (gradients do not transition)
+		} else {
+			beforeFill = this.__getColor(index);
+		}
+
+		path.attr("d", beforePath).attr("fill", beforeFill);
+	};
+
+	/**
+  * @param {int} index
+  *
+  * @return {array}
+  */
+	D3Funnel.prototype.__getSectionData = function (index) {
+		return [{
+			index: index,
+			label: this.data[index][0],
+			value: this.data[index][1],
+			baseColor: this.data[index][2],
+			fill: this.__getColor(index)
+		}];
+	};
+
+	/**
+  * @param {int} index
+  *
+  * @return {string}
+  */
+	D3Funnel.prototype.__getPathDefinition = function (index) {
+		var pathStr = "";
+		var point = [];
+		var paths = this.sectionPaths[index];
+
+		for (var j = 0; j < paths.length; j++) {
+			point = paths[j];
+			pathStr += point[2] + point[0] + "," + point[1] + " ";
+		}
+
+		return pathStr;
+	};
+
+	/**
+  * @param {Object} group
+  * @param {int}    index
+  */
+	D3Funnel.prototype.__addSectionLabel = function (group, index) {
+		var i = index;
+		var paths = this.sectionPaths[index];
+		var textStr = this.data[i][0] + ": " + this.data[i][1].toLocaleString();
+		var textFill = this.data[i][3] || this.label.fill;
+
+		var textX = this.width / 2; // Center the text
+		var textY = !this.isCurved ? // Average height of bases
+		(paths[1][1] + paths[2][1]) / 2 : (paths[2][1] + paths[3][1]) / 2 + this.curveHeight / this.data.length;
+
+		group.append("text").text(textStr).attr({
+			x: textX,
+			y: textY,
+			"text-anchor": "middle",
+			"dominant-baseline": "middle",
+			fill: textFill,
+			"pointer-events": "none"
+		}).style("font-size", this.label.fontSize).style("font-weight", this.label.fontWeight);
+	};
+
+	/**
+  * Initialize and calculate important variables for drawing the chart.
+  *
+  * @param {array}  data
+  * @param {Object} options
+  */
+	D3Funnel.prototype.__initialize = function (data, options) {
+		if (!this.__isArray(data) || data.length === 0 || !this.__isArray(data[0]) || data[0].length < 2) {
+			throw {
+				name: "D3 Funnel Data Error",
+				message: "Funnel data is not valid."
+			};
+		}
+
+		// Initialize options if not set
+		options = typeof options !== "undefined" ? options : {};
+
+		this.data = data;
+
+		// Counter
+		var i = 0;
+
+		// Prepare the configuration settings based on the defaults
+		// Set the default width and height based on the container
+		var settings = this.__extend({}, this.defaults);
+		settings.width = parseInt(d3.select(this.selector).style("width"), 10);
+		settings.height = parseInt(d3.select(this.selector).style("height"), 10);
+
+		// Overwrite default settings with user options
+		var keys = Object.keys(options);
+		for (i = 0; i < keys.length; i++) {
+			if (keys[i] !== "label") {
+				settings[keys[i]] = options[keys[i]];
+			}
+		}
+
+		// Label settings
+		if ("label" in options) {
+			var validLabelOptions = /fontSize|fill/;
+			var labelOption;
+			for (labelOption in options.label) {
+				if (labelOption.match(validLabelOptions)) {
+					settings.label[labelOption] = options.label[labelOption];
+				}
+			}
+		}
+		this.label = settings.label;
+
+		// In the case that the width or height is not valid, set
+		// the width/height as its default hard-coded value
+		if (settings.width <= 0) {
+			settings.width = this.defaults.width;
+		}
+		if (settings.height <= 0) {
+			settings.height = this.defaults.height;
+		}
+
+		// Initialize the colors for each block section
+		var colorScale = d3.scale.category10();
+		for (i = 0; i < this.data.length; i++) {
+			var hexExpression = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i;
+
+			// If a color is not set for the record, add one
+			if (!("2" in this.data[i]) || !hexExpression.test(this.data[i][2])) {
+				this.data[i][2] = colorScale(i);
+			}
+		}
+
+		// Initialize funnel chart settings
+		this.width = settings.width;
+		this.height = settings.height;
+		this.bottomWidth = settings.width * settings.bottomWidth;
+		this.bottomPinch = settings.bottomPinch;
+		this.isCurved = settings.isCurved;
+		this.curveHeight = settings.curveHeight;
+		this.fillType = settings.fillType;
+		this.isInverted = settings.isInverted;
+		this.hoverEffects = settings.hoverEffects;
+		this.dynamicArea = settings.dynamicArea;
+		this.animation = settings.animation;
+
+		// Calculate the bottom left x position
+		this.bottomLeftX = (this.width - this.bottomWidth) / 2;
+
+		// Change in x direction
+		// Will be sharper if there is a pinch
+		this.dx = this.bottomPinch > 0 ? this.bottomLeftX / (data.length - this.bottomPinch) : this.bottomLeftX / data.length;
+		// Change in y direction
+		// Curved chart needs reserved pixels to account for curvature
+		this.dy = this.isCurved ? (this.height - this.curveHeight) / data.length : this.height / data.length;
+	};
+
+	/**
+  * Create the paths to be used to define the discrete funnel sections and
+  * returns the results in an array.
+  *
+  * @return {array}
+  */
+	D3Funnel.prototype.__makePaths = function () {
+		var paths = [];
+
+		// Initialize velocity
+		var dx = this.dx;
+		var dy = this.dy;
+
+		// Initialize starting positions
+		var prevLeftX = 0;
+		var prevRightX = this.width;
+		var prevHeight = 0;
+
+		// Start from the bottom for inverted
+		if (this.isInverted) {
+			prevLeftX = this.bottomLeftX;
+			prevRightX = this.width - this.bottomLeftX;
+		}
+
+		// Initialize next positions
+		var nextLeftX = 0;
+		var nextRightX = 0;
+		var nextHeight = 0;
+
+		var middle = this.width / 2;
+
+		// Move down if there is an initial curve
+		if (this.isCurved) {
+			prevHeight = 10;
+		}
+
+		var topBase = this.width;
+		var bottomBase = 0;
+
+		var totalArea = this.height * (this.width + this.bottomWidth) / 2;
+		var slope = 2 * this.height / (this.width - this.bottomWidth);
+
+		var totalCount = 0;
+		var count = 0;
+
+		// Harvest total count
+		for (var i = 0; i < this.data.length; i++) {
+			totalCount += this.data[i][1];
+		}
+
+		// Create the path definition for each funnel section
+		// Remember to loop back to the beginning point for a closed path
+		for (i = 0; i < this.data.length; i++) {
+			count = this.data[i][1];
+
+			// Calculate dynamic shapes based on area
+			if (this.dynamicArea) {
+				var ratio = count / totalCount;
+				var area = ratio * totalArea;
+
+				bottomBase = Math.sqrt((slope * topBase * topBase - 4 * area) / slope);
+				dx = topBase / 2 - bottomBase / 2;
+				dy = area * 2 / (topBase + bottomBase);
+
+				if (this.isCurved) {
+					dy = dy - this.curveHeight / this.data.length;
+				}
+
+				topBase = bottomBase;
+			}
+
+			// Stop velocity for pinched sections
+			if (this.bottomPinch > 0) {
+
+				// Check if we've reached the bottom of the pinch
+				// If so, stop changing on x
+				if (!this.isInverted) {
+					if (i >= this.data.length - this.bottomPinch) {
+						dx = 0;
+					}
+				}
+				// Pinch at the first sections relating to the bottom pinch
+				// Revert back to normal velocity after pinch
+				else {
+					// Revert velocity back to the intial if we are using
+					// static area's (prevents zero velocity if isInverted
+					// and bottomPinch are non trivial and dynamicArea is false)
+					if (!this.dynamicArea) {
+						dx = this.dx;
+					}
+
+					dx = i < this.bottomPinch ? 0 : dx;
+				}
+			}
+
+			// Calculate the position of next section
+			nextLeftX = prevLeftX + dx;
+			nextRightX = prevRightX - dx;
+			nextHeight = prevHeight + dy;
+
+			// Expand outward if inverted
+			if (this.isInverted) {
+				nextLeftX = prevLeftX - dx;
+				nextRightX = prevRightX + dx;
+			}
+
+			// Plot curved lines
+			if (this.isCurved) {
+				paths.push([
+				// Top Bezier curve
+				[prevLeftX, prevHeight, "M"], [middle, prevHeight + (this.curveHeight - 10), "Q"], [prevRightX, prevHeight, ""],
+				// Right line
+				[nextRightX, nextHeight, "L"],
+				// Bottom Bezier curve
+				[nextRightX, nextHeight, "M"], [middle, nextHeight + this.curveHeight, "Q"], [nextLeftX, nextHeight, ""],
+				// Left line
+				[prevLeftX, prevHeight, "L"]]);
+			}
+			// Plot straight lines
+			else {
+				paths.push([
+				// Start position
+				[prevLeftX, prevHeight, "M"],
+				// Move to right
+				[prevRightX, prevHeight, "L"],
+				// Move down
+				[nextRightX, nextHeight, "L"],
+				// Move to left
+				[nextLeftX, nextHeight, "L"],
+				// Wrap back to top
+				[prevLeftX, prevHeight, "L"]]);
+			}
+
+			// Set the next section's previous position
+			prevLeftX = nextLeftX;
+			prevRightX = nextRightX;
+			prevHeight = nextHeight;
+		}
+
+		return paths;
+	};
+
+	/**
+  * Define the linear color gradients.
+  *
+  * @param {Object} svg
+  */
+	D3Funnel.prototype.__defineColorGradients = function (svg) {
+		var defs = svg.append("defs");
+
+		// Create a gradient for each section
+		for (var i = 0; i < this.data.length; i++) {
+			var color = this.data[i][2];
+			var shade = shadeColor(color, -0.25);
+
+			// Create linear gradient
+			var gradient = defs.append("linearGradient").attr({
+				id: "gradient-" + i
+			});
+
+			// Define the gradient stops
+			var stops = [[0, shade], [40, color], [60, color], [100, shade]];
+
+			// Add the gradient stops
+			for (var j = 0; j < stops.length; j++) {
+				var stop = stops[j];
+				gradient.append("stop").attr({
+					offset: stop[0] + "%",
+					style: "stop-color:" + stop[1]
+				});
+			}
+		}
+	};
+
+	/**
+  * Draw the top oval of a curved funnel.
+  *
+  * @param {Object} svg
+  * @param {array}  sectionPaths
+  */
+	D3Funnel.prototype.__drawTopOval = function (svg, sectionPaths) {
+		var leftX = 0;
+		var rightX = this.width;
+		var centerX = this.width / 2;
+
+		if (this.isInverted) {
+			leftX = this.bottomLeftX;
+			rightX = this.width - this.bottomLeftX;
+		}
+
+		// Create path form top-most section
+		var paths = sectionPaths[0];
+		var path = "M" + leftX + "," + paths[0][1] + " Q" + centerX + "," + (paths[1][1] + this.curveHeight - 10) + " " + rightX + "," + paths[2][1] + " M" + rightX + ",10" + " Q" + centerX + ",0" + " " + leftX + ",10";
+
+		// Draw top oval
+		svg.append("path").attr("fill", shadeColor(this.data[0][2], -0.4)).attr("d", path);
+	};
+
+	/**
+  * @param {Object} data
+  */
+	D3Funnel.prototype.__onMouseOver = function (data) {
+		d3.select(this).attr("fill", shadeColor(data.baseColor, -0.2));
+	};
+
+	/**
+  * @param {Object} data
+  */
+	D3Funnel.prototype.__onMouseOut = function (data) {
+		d3.select(this).attr("fill", data.fill);
+	};
+
+	/**
+  * Shade a color to the given percentage.
+  *
+ 	 * @param {string} color A hex color.
+ 	 * @param {float}  shade The shade adjustment. Can be positive or negative.
+  */
+	function shadeColor(color, shade) {
+		var f = parseInt(color.slice(1), 16);
+		var t = shade < 0 ? 0 : 255;
+		var p = shade < 0 ? shade * -1 : shade;
+		var R = f >> 16,
+		    G = f >> 8 & 255;
+		var B = f & 255;
+
+		var converted = 16777216 + (Math.round((t - R) * p) + R) * 65536 + (Math.round((t - G) * p) + G) * 256 + (Math.round((t - B) * p) + B);
+
+		return "#" + converted.toString(16).slice(1);
+	}
+
+	global.D3Funnel = D3Funnel;
+})(window);
+
+},{}],159:[function(require,module,exports){
+"use strict";
+
 var React = require("react");
 
 var funnel = module.exports = React.createClass({
@@ -19774,7 +20387,7 @@ var funnel = module.exports = React.createClass({
 	render: function render() {
 		var self = this;
 		var data = [];
-		var colors = ["65A0D6", "#494949", "#4F8D9D", "#898B8F", "#E6615D", "#5E6063", "#EA8D63", "#CBD1D4", "#9ECD75"];
+		var colors = ["#65A0D6", "#494949", "#4F8D9D", "#898B8F", "#E6615D", "#5E6063", "#EA8D63", "#CBD1D4", "#9ECD75"];
 		var options = {
 			width: 600, // In pixels; defaults to container's width (if non-zero)
 			height: 600, // In pixels; defaults to container's height (if non-zero)
@@ -19785,12 +20398,13 @@ var funnel = module.exports = React.createClass({
 			fillType: "solid", // Either "solid" or "gradient"
 			isInverted: false, // Whether the funnel is inverted
 			hoverEffects: false, // Whether the funnel has effects on hover
-			dynamicArea: false, // Whether the funnel should calculate the blocks by
+			dynamicArea: true, // Whether the funnel should calculate the blocks by
 			// the count values rather than equal heights
 			animation: 200, // The load animation speed in milliseconds
 			label: {
 				fontSize: "16px", // Any valid font size
-				fill: "#fff" // Any valid hex color
+				fill: "#fff", // Any valid hex color
+				fontWeight: 700
 			}
 		};
 		if (this.props.salePrice) {
@@ -19805,7 +20419,7 @@ var funnel = module.exports = React.createClass({
 	}
 });
 
-},{"react":155}],159:[function(require,module,exports){
+},{"react":155}],160:[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -19813,7 +20427,7 @@ var App = require("./app.jsx");
 
 React.render(React.createElement(App, null), document.getElementById("app"));
 
-},{"./app.jsx":156,"react":155}],160:[function(require,module,exports){
+},{"./app.jsx":156,"react":155}],161:[function(require,module,exports){
 "use strict";
 
 var React = require("react");
@@ -19826,7 +20440,7 @@ var input = module.exports = React.createClass({
 	}
 });
 
-},{"react":155}],161:[function(require,module,exports){
+},{"react":155}],162:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -19886,4 +20500,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[159]);
+},{}]},{},[158,160]);
