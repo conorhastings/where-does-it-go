@@ -54,7 +54,11 @@ var app = module.exports = React.createClass({
 	},
 
 	handleClick: function() {
-		this.setState({salePrice: parseInt(this.refs.price.getDOMNode().value.replace(/\W+/g, " ").split(" ").join(""))})
+		var salePrice = parseInt(this.refs.price.getDOMNode().value.replace(/\W+/g, " ").split(" ").join(""));
+		this.setState({salePrice: salePrice});
+		if(salePrice > 9999) {
+			React.findDOMNode(this.refs.killedIt).play();
+		}
 	},
 
 	handleKeyPress: function(e) {
@@ -67,6 +71,7 @@ var app = module.exports = React.createClass({
 		var inputStyle = {width:"400px", height:"50px", border:"none", borderRadius:"3px", marginBottom:"10px", fontSize:"18px", padding:"10px", textAlign:"center"};
 		var buttonStyle = {width:"300px", height:"50px", border:"none", borderRadius:"3px", backgroundColor:"#93CD75", marginBottom:"10px", fontWeight:"700"};	
 		var style = {textAlign:"center"};
+		var killedIt = <audio ref="killedIt" src="http://conorhastings.com/where-does-it-go/killedit.m4a"></audio>
 		return (
 			<div style={style}>
 				<h1>Enter Sale Price</h1>
@@ -79,6 +84,7 @@ var app = module.exports = React.createClass({
 				<div>
 					<Funnel breakdown={this.props.breakdown} salePrice = {this.state.salePrice} />
 				</div>
+				<div>{killedIt}</div>
 			</div>
 		)
 	}

@@ -19706,7 +19706,11 @@ var app = module.exports = React.createClass({
 	},
 
 	handleClick: function handleClick() {
-		this.setState({ salePrice: parseInt(this.refs.price.getDOMNode().value.replace(/\W+/g, " ").split(" ").join("")) });
+		var salePrice = parseInt(this.refs.price.getDOMNode().value.replace(/\W+/g, " ").split(" ").join(""));
+		this.setState({ salePrice: salePrice });
+		if (salePrice > 9999) {
+			React.findDOMNode(this.refs.killedIt).play();
+		}
 	},
 
 	handleKeyPress: function handleKeyPress(e) {
@@ -19719,6 +19723,7 @@ var app = module.exports = React.createClass({
 		var inputStyle = { width: "400px", height: "50px", border: "none", borderRadius: "3px", marginBottom: "10px", fontSize: "18px", padding: "10px", textAlign: "center" };
 		var buttonStyle = { width: "300px", height: "50px", border: "none", borderRadius: "3px", backgroundColor: "#93CD75", marginBottom: "10px", fontWeight: "700" };
 		var style = { textAlign: "center" };
+		var killedIt = React.createElement("audio", { ref: "killedIt", src: "http://conorhastings.com/where-does-it-go/killedit.m4a" });
 		return React.createElement(
 			"div",
 			{ style: style },
@@ -19741,6 +19746,11 @@ var app = module.exports = React.createClass({
 				"div",
 				null,
 				React.createElement(Funnel, { breakdown: this.props.breakdown, salePrice: this.state.salePrice })
+			),
+			React.createElement(
+				"div",
+				null,
+				killedIt
 			)
 		);
 	}
