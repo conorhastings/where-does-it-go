@@ -291,6 +291,12 @@
 	D3Funnel.prototype.__addSectionLabel = function(group, index)
 	{
 		var i = index;
+		if(i === 0) {
+			this.label.fontSize = "60px";
+		}
+		else{
+			this.label.fontSize = "16px";
+		}
 		var paths = this.sectionPaths[index];
 		var textStr = this.data[i][0] + ": " + this.data[i][1].toLocaleString();
 		var textFill = this.data[i][3] || this.label.fill;
