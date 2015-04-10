@@ -54,7 +54,6 @@ var app = module.exports = React.createClass({
 	},
 
 	handleClick: function() {
-		console.log(this.refs.price.getDOMNode().value.replace(/\W+/g, " "));
 		this.setState({salePrice: parseInt(this.refs.price.getDOMNode().value.replace(/\W+/g, " ").split(" ").join(""))})
 	},
 
